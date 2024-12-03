@@ -1,6 +1,7 @@
 import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider, GoogleOneTap } from "@clerk/nextjs";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Outfit({ subsets: ["latin"] });
 
