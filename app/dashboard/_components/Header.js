@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className='flex justify-between items-center p-5 shadow-sm'>
        <Link href={'/dashboard'}>
-        <Image src={'/favicon.svg'} width={40} height={40} />
+        <Image alt="placeholder"  src={'/favicon.svg'} width={40} height={40} />
         </Link>
         <UserButton/>
     </div>

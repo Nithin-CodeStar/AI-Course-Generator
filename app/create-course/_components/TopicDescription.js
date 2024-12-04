@@ -16,7 +16,7 @@ const TopicDescription = () => {
     <div className='mx-20 lg:mx-44'>
         {/* Topic */}
         <div className='mt-5'>
-            <label htmlFor="">Write the topic for which yiu want to generate the course.</label>
+            <label htmlFor="">Write the topic for which you want to generate the course.</label>
             <Input placeholder={'Topic'}
             className="h-12 text-md"
             defaultValue={userCourseInput?.topic}

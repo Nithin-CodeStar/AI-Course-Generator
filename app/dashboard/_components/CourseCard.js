@@ -26,7 +26,7 @@ function CourseCard({course,refreshData,displayUser=false}) {
     <div className='shadow-sm rounded-lg border p-2
      cursor-pointer mt-4 hover:border-primary'>
         <Link href={'/course/'+course?.courseId}>
-            <Image src={course?.courseBanner} width={300} height={200}
+            <Image alt="placeholder"  src={course?.courseBanner} width={300} height={200}
             className='w-full h-[200px] object-cover rounded-lg'
             />
         </Link>
@@ -47,7 +47,7 @@ function CourseCard({course,refreshData,displayUser=false}) {
             
             </div>
           {!displayUser&&  <div className='flex gap-2 items-center mt-2'>
-                <Image src={course?.userProfileImage} width={35} height={35}
+                <Image alt="placeholder"  src={course?.userProfileImage} width={35} height={35}
                 className='rounded-full'
                 />
                 <h2 className='text-sm'>{course?.userName}</h2>
